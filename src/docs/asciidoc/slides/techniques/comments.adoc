@@ -1,0 +1,14 @@
+[#comments]
+== #{counter:technique_num}: Comments
+
+[source]
+----
+// ignore this line
+
+////
+drop
+this
+whole
+section
+////
+----

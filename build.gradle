@@ -1,0 +1,91 @@
+// This build script is based on a project template for Asciidoctor-Reveal.js integration by Danny Hyun
+buildscript {
+  repositories {
+    jcenter()
+  }
+
+  dependencies {
+    classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.2'
+    classpath 'com.github.jruby-gradle:jruby-gradle-plugin:0.1.5'
+    classpath 'org.ysb33r.gradle:vfs-gradle-plugin:1.0-beta1'
+    classpath 'commons-httpclient:commons-httpclient:3.1'
+    classpath 'com.bluepapa32:gradle-watch-plugin:0.1.4'
+  }
+}
+
+apply plugin: 'com.github.jruby-gradle.base'
+apply plugin: 'org.ysb33r.vfs'
+apply plugin: 'java'
+apply plugin: 'org.asciidoctor.convert'
+apply plugin: 'com.bluepapa32.watch'
+
+version = '1.0.0-SNAPSHOT'
+
+ext {
+  revealjsVersion = '3.0.0'
+  asciidoctorBackendVersion = 'master'
+  downloadDir = new File(buildDir, 'download')
+  //templateDir = new File(downloadDir, 'templates')
+  //revealjsDir = new File(downloadDir, 'reveal.js')
+  // NOTE you need to create this checkout/symlink manually for now
+  templateDir = new File('asciidoctor-reveal.js')
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  gems 'rubygems:asciidoctor-diagram:1.3.0.preview.3'
+  gems 'rubygems:slim:2.1.0'
+  gems 'rubygems:thread_safe:0.3.4'
+}
+
+// NOTE not currently in use
+//task download << {
+//  mkdir downloadDir
+//  vfs {
+//    cp "zip:https://github.com/danhyun/asciidoctor-reveal.js/archive/${asciidoctorBackendVersion}.zip!asciidoctor-reveal.js-${asciidoctorBackendVersion}",
+//      templateDir, recursive: true, overwrite: true
+//    cp "zip:https://github.com/hakimel/reveal.js/archive/${revealjsVersion}.zip!reveal.js-${revealjsVersion}",
+//      revealjsDir, recursive: true, overwrite: true
+//  }
+//}
+//
+//download {
+//  description 'Download extra reveal.js resources'
+//  outputs.dir templateDir
+//  outputs.dir revealjsDir
+//}
+
+asciidoctor {
+  dependsOn jrubyPrepareGems
+  gemPath = jrubyPrepareGems.outputDir
+  requires = ['asciidoctor-diagram']
+  sources {
+    include 'slides.adoc'
+  }
+  resources {
+    from(sourceDir) {
+      include 'images/**'
+      include 'styles/**'
+    }
+    //from(downloadDir) {
+    //  include 'reveal.js/**'
+    //}
+  }
+  backends 'xhtml5'
+  attributes 'sourcedir': project.sourceSets.main.java.srcDirs[0],
+      //'docinfo1': 'true',
+      'revealjsdir': 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0',
+      'revealjs_slidenumber': 'true'
+  options template_dirs: [new File(templateDir, 'templates/slim').absolutePath]
+  //dependsOn download
+}
+
+watch {
+  asciidoc {
+    files fileTree(dir: 'src')
+    tasks 'asciidoctor'
+  }
+}

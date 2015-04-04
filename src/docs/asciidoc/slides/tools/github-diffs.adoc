@@ -1,0 +1,11 @@
+[#normal-diff%notitle]
+== AsciiDoc normal diff
+
+[.contain]
+image::code-diff.png[Normal diff of AsciiDoc content on GitHub]
+
+[#rich-diff%notitle]
+== AsciiDoc rich diff
+
+[.contain]
+image::rich-diff.png[Rich diff of AsciiDoc content on GitHub]

@@ -1,0 +1,6 @@
+[#its-complex]
+== [light]#It's# complex
+
+[.fragment]
+[illuminate]#But it doesn't have to be.#
+//We're fabricating barriers.

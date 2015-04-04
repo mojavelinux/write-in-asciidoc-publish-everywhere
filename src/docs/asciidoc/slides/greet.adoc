@@ -1,0 +1,5 @@
+[#greet.light-canvas%notitle]
+== An encounter triggers our instinct to communicate
+
+[.contain]
+image::greeting.svg[Meeting face-to-face]

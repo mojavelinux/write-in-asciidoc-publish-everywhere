@@ -1,0 +1,16 @@
+////
+Benefits:
+- better for diffing; avoids reflows
+- encourages shorter sentences
+- clearly see your points, like a bulleted list
+- easy to rearrange sentences
+- easy to temporarily disable sentences
+- ...
+////
+[#sentence-per-line]
+== #{counter:technique_num:1}: Sentence per line
+
+[.text-left.size-3x%hardbreaks]
+⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃.
+⁃⁃⁃⁃⁃⁃.
+⁃⁃⁃⁃⁃⁃⁃⁃⁃.

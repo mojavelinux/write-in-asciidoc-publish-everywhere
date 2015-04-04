@@ -1,0 +1,9 @@
+= WORKLOG
+
+== TODO
+
+* Devoxx France branding on intro slide
+* Add slide that shows “Edit on GitHub” button
+* Add Slides for HubPress.io and adoc-editor
+* Commit changes to asciidoctor-reveal.js backend so we can link to it
+* Remove unused slides (at least those that we intend to trash)

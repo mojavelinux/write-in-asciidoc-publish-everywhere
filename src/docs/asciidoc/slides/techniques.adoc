@@ -1,0 +1,18 @@
+[#writing-techniques.topic]
+== _Zen_ writing techniques
+
+//:leveloffset: +1
+
+include::techniques/sentence-per-line.adoc[]
+
+include::techniques/comments.adoc[]
+
+include::techniques/couch-read.adoc[]
+
+//include::techniques/curl-your-quotes.adoc[]
+
+include::techniques/dry-attributes.adoc[]
+
+include::techniques/answer-a-question.adoc[]
+
+//:leveloffset: -1

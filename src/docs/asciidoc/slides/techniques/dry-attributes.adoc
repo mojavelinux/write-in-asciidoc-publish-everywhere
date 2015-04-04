@@ -1,0 +1,30 @@
+// TODO talk about qualifying attribute names like uri-, link-, etc
+// TODO talk about moving attributes into an include file (tradeoff that it breaks GitHub)
+[#dry-attributes]
+== #{counter:technique_num:1}: D.R.Y. Attributes
+
+[source]
+----
+:uri-project: http://example.org
+
+Find out more about {uri-project}[project name].
+----
+
+// TODO show example of spring.io guide (Gradle guide in particular)
+[#includes]
+== and includes
+
+.Shared content
+[source]
+....
+\include::{uri-macros}/how_to_complete_this_guide.adoc[]
+....
+
+._Testable_ source code
+[source]
+....
+[source,groovy]
+----
+\include::build.gradle[tag=repositories]
+----
+....

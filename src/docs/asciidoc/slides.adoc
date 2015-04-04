@@ -1,0 +1,63 @@
+= Write in *AsciiDoc*, Publish *Everywhere*
+Maxime Gréau <https://twitter.com/mgreau[@mgreau]>; Dan Allen <https://twitter.com/mojavelinux[@mojavelinux]>
+v1.0.0, 2015-04-10
+include::slides/_metadata.adoc[]
+include::slides/_settings.adoc[]
+
+include::slides/stuck.adoc[]
+
+include::slides/greet.adoc[]
+
+include::slides/talk.adoc[]
+
+include::slides/text.adoc[]
+
+include::slides/tweet.adoc[]
+
+include::slides/docs-puzzle.adoc[]
+
+include::slides/ordeal-quote.adoc[]
+
+include::slides/pourquoi.adoc[]
+
+include::slides/houss.adoc[]
+
+include::slides/docs-as-code.adoc[]
+
+include::slides/asciidoc-intro.adoc[]
+
+// QUESTION proper placement for tenets slide?
+include::slides/syntax-tour/tenets.adoc[]
+
+include::slides/fundamentals.adoc[]
+
+include::slides/publish-everywhere.adoc[]
+
+include::slides/extend.adoc[]
+
+include::slides/techniques.adoc[]
+
+[.topic]
+== Tools
+
+include::slides/tools/github.adoc[]
+
+include::slides/tools/github-diffs.adoc[]
+
+// TODO:
+//include::slides/tools/edit-on-github.adoc[]
+
+[.local-live-preview]
+== Local [illuminate]#Live# Preview
+
+include::slides/tools/chrome-asciidoc-preview.adoc[]
+
+include::slides/tools/atom-asciidoc-preview.adoc[]
+
+// TODO: HubPress.io placeholder/demo slide
+
+// TODO: adoc-editor placeholder/demo slide
+
+include::slides/author-quotes.adoc[]
+
+include::slides/cred.adoc[]

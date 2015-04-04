@@ -1,0 +1,2 @@
+[#docs-eq-code]
+== Docs [illuminate]#=# Code !

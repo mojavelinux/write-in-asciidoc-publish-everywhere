@@ -1,0 +1,33 @@
+[#extend]
+== Extend it!
+
+[%step]
+* Custom syntax [atten]#(`+issue:<id>[]+`)#
+* Custom converters [atten]#(PDF, reveal.js, ...)#
+* AST transforms
+
+// AsciiDoc is an input, does not dictate an output
+// separation of content and presentation
+// This is really where Asciidoctor comes in and shines
+
+//[.proper]
+//== +issue:<id>[]+
+== Extension example
+
+.`+issue:<id>[]+`
+[source.condense]
+----
+asciidoctor {
+  extensions {
+    inline_macro (name: 'issue') { parent, id, attrs ->
+      issues_uri = parent.getAttr('uri-issues')
+      options = [
+        type: ':link',
+        target: "${issues_uri}/${id}".toString()
+      ]
+      createInline(parent, 'anchor',
+          target, attrs, options).render()
+    }
+  }
+}
+----

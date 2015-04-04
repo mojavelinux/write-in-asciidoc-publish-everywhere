@@ -1,0 +1,400 @@
+== Write in AsciiDoc, Publish Everywhere: Transcript
+
+[#title]
+== !
+
+Max::
+Hello!
+Thank you for coming.
+I'm Maxime.
+It's an honor to be here in front of you and alongside Dan.
+Thank you Dan and the Devoxx France team.
+Today, we are here to talk about AsciiDoc, Asciidoctor and the tooling around it.
+You will learn a lot today but the hardest thing for you will be to discover which guy is the Frecnh guy and which one is the American guy!
+Dan::
+Bonjour et bienvenue à Devoxx France.
+Merci pour venez à notre présentation.
+Je suis Dan Allen.
+Je suis le chef (ou l'auteur) de Asciidoctor
+Aujourd'hui, nous allons vous expliquer les bonnes pratiques pour écrire en AsciiDoc...
+Max::
+Dan! What are you doing?
+I think they know that I'm the French guy.
+Dan::
+Zut !
+I've been spending too many hours practicing French.
+Cette fois en anglais.
+My name is Dan Allen.
+In my business, I focus on content strategy, building communities and educating people about technology.
+I am also the lead of the Asciidoctor project.
+Maxime is an esteemed member of the Asciidoctor community and creator of adoc-editor, which you'll get to see later in this presentation.
+Max::
+As you may know, we have some t-shirts for you.
+Don't hesitate to ask good question to win a cool t-shirt!
+Dan::
+So Maxime.
+What's a good question?
+Max::
+Hum..., that's a good question Dan, you win a t-shirt. 
+...
+Dan::
+Gagnant !
+
+[#title-continued]
+== !
+
+Today, we're going to teach you how to use AsciiDoc more effectively by sharing with you a handful of techniques and showcasing some tools we use in our daily work.
+We'll be helping you on your journey to discovering writing zen by introducing you to a muse named Asciidoctor.
+In the words of Scott Chacon, author of Pro Git, you'll be “Living the Future of Technical Documentation.”
+
+If you're writing in AsciiDoc, you're already following one of our recommended best practices for writing.
+Way to go!
+If not, your journey with AsciiDoc starts today.
+We hope when you leave here today, you'll be ready to put these techniques and tools into practice and, plus important, take pleasure in the art of writing.
+
+[#stuck]
+== !
+
+Reflect for a moment about writing documentation.
+How does it make you feel?
+
+I'm guessing many of you identify with this poor fellow.
+Let's call him Jacques.
+Jacques feels stuck.
+Jacques is sufficating.
+Jacques feels constrained by heavy process, pigeonhole tools & erratic expectations.
+Jacques is writing documentation in a CMS.
+
+My theory is that the challenge we have with writing and maintaining technical writing is not with communication itself, but rather with the constraints we are imposing on ourselves.
+We are sufficiating the writing and the writer.
+
+If all communication made us feel this way, we'd never leave the house.
+In reality, it's the opposite.
+We _live_ to communicate.
+And we've done so for [slow]#tens of thousands# of years.
+
+[#greet]
+== !
+
+Think about how much you've communicated with each other this week.
+You walk up to someone and you just know what to say.
+
+[#chat]
+== !
+
+And you're usually quite happy about it.
+It makes you feel good (even if sometimes a bit nervous...a good kind of nervous).
+Speaking in our native language comes natural to us.
+
+It's not confined to speaking...
+
+[#text]
+== !
+
+How many times have you pulled out your phone to write a text message...perhaps even while speaking?
+You don't give much thought to how and where you write.
+You just punch in (or swipe) some words and click send.
+Same with e-mails.
+Most people are OK with writing e-mails.
+They don't consider this writing.
+Someone asks you a question, you press reply and type away.
+
+[#tweet]
+== !
+
+The same for tweets.
+The Twitter bird asks “What's happening?”, you just fill in the blank.
+You are a communication machine!
+
+// question and response
+Notice that these forms of communication are _responses_.
+Très important.
+
+[#docs-puzzle]
+== !
+
+Yet documentation, such as writing a README or tutorial, seems to puzzle us.
+We clam up and begin stressing about all sorts of things.
+
+[#pourqoui]
+== !
+
+Pourquoi ?
+
+// Writing documentation should be as simple as writing an e-mail, oui ?
+
+[#its-complicated]
+== !
+
+It's complicated.
+
+When we write documentation, all of a sudden we have to think about putting structure on a blank canvas.
+What's the beginning, middle and end?
+The prerequisites? The audience?
+This isn't just question and response anymore.
+Think again about how we communicate.
+We don't go up to someone and outline what we're going to say.
+(act out dialogue)
+So we're not used to thinking about the structure, the outline.
+On top of that, there is no longer a clear channel of communication.
+Or we make it more difficult by layering on a bad writing environment.
+
+We need to hack our brain and our process.
+We need to believe we can do it.
+And no one has helped us believe in ourselves more than IKEA.
+
+[#houss]
+== !
+
+* envision goal
+* itemize tools
+* tell good from bad
+* follow the steps
+* success!
+
+Ne stressez pas.
+Vous pouvez le faire.
+
+== !
+
+Bad::
+// If we wrote code like we write docs
+* DocBook
+// YGWYG
+* WYSIWYG
+Good::
+// Developers love code
+// Why not write docs this way?
+* AsciiDoc
+
+[#asciidoc-sample]
+== !
+
+Free your mind by writing in the closest format to thought, plain text.
+Efficiently encode the information.
+*Content in its purest form.*
+Similar to writing on paper.
+Plow away the distractions.
+What's most important is that you're writing!
+
+== !
+
+Docs are code!
+To be more successful with writing and maintaining technical documentation, we need to treat it just like code.
+*We want to introduce you to a writing system that respects documentation this way.*
+
+[#asciidoc-intro]
+== !
+
+AsciiDoc:: the syntax
++
+A plain text format for writing documentation and other technical and non-technical content
+
+Asciidoctor:: the toolchain
++
+Parser + writing and publishing tools.
+(50 repositories in the Asciidoctor organization on GitHub).
+
+[#fundamentals]
+== !
+
+Fundamentals for documentation.
+
+read:: syntax doesn't get in the way of writing
+// ^ authors always say "I can finally see what I'm writing"
+edit:: can clearly see the content, even without rendering
+version:: most critical; absolutely essential; establishes canonical source / avoids divergence; allow you to track changes; aids workflow
+share:: ad-hoc publishing; seriously low barrier to collaboration
+convert:: write in AsciiDoc once, publish everywhere
+
+[#tenets]
+== !
+
+* Concise
+* Consistent
+* Semantic
+
+// Efficiently encode the (semantic) information
+
+[#extend]
+== !
+
+Extend it!
+
+* The AsciiDoc is made to be extended.
+* AsciiDoc is an input, does not dictate an output.
+* Separation of content and presentation.
+* This is really where Asciidoctor comes in and shines
+
+// example?
+
+[#write-publish]
+== !
+
+Écrire en AsciiDoc, publier partout !
+
+// ^ itemize formats (see http://mgreau.com/slides/websocket-asciidoctor/DevNation2014/slides.html#13.6)
+
+[#zen-writing-techniques]
+== !
+
+We want to share with you some of the techniques we use to attain writing zen.
+
+[#sentence-per-line]
+== !
+
+Think about how you write code.
+You tend to put one statement on each line.
+Anders from the Neo4j project introduced me to the power of writing documentation using one sentence per line.
+This technique has single-handly transformed my writing process, and I'm eternally grateful to him.
+In sentence per line, you write a paragraph like you would a bulleted list, except you drop the bullets.
+Like HTML, endlines in paragraph content are insignficant in AsciiDoc, so this mode of writing is supported by default.
+
+Benefits:
+- feels natural (matches how we write code)
+- localizes changes (does not cause reflow)
+- easier to diff
+- can easily rearrange sentences or disable sentences
+- can add commentary at the sentence level (more in a bit, will see in action in adoc-editor demo)
+- encourages shorter sentences (edit with a knife!)
+- helps you think about what you're writing
+
+Highly recommended.
+
+[#use-comments]
+== !
+
+Just like code, AsciiDoc supports line and block-level comments.
+This allows you to take content out of the flow either temporarily or permanently.
+
+Once you write using sentence per line, you can use line or block comments quite effectively to try out content, swapping it in and out of place.
+Michael Hunger of Neo4j referred to this as “comment-driven development”
+
+The comment feature also makes a great notation system.
+
+[#couch-read]
+== !
+
+The best way I've found to get a big picture view and also catch all the little errors while editing is to do what I call a couch read.
+Bring up the document on your phone and read it through.
+You'll find that no mistake is too small to slip through this filter.
+You've also hacked your brain to be in the readers shoes, making a clear switch from producing to consuming.
+Running over to your computer takes effort, so you stick with the reading.
+I tend to jot down notes in a notebook while reading.
+
+I strongly encourage you to couch read all your documents.
+
+[#dry-attributes]
+== !
+
+* D.R.Y. = Don't repeat yourself
+* catalog all URIs in one location
+* make it easy to update URIs when a document moves
+* don't end up with environment-specific paths
+* also provides a way to add metadata and additional semantics to document
+* can also use attributes to create conditional content (good for publishing multiple versions of your docs)
+
+Recommended practices:
+* qualify attribute names (like uri-, link-, etc)
+* move attributes in an include file
+
+[#includes]
+== !
+
+* chunk your content
+* reuse shared content
+* test code snippets
+
+[#answer-a-question]
+== !
+
+// This is one of the arcs.
+Primary brain hack is to write like you are answering a question.
+Start with an outline of questions, answer those questions, then go back and change those questions to statements in the final version.
+
+[#tools]
+== !
+
+Quick survey of some of the tools we frequently use.
+There is a plethora of tools available, and growing every day.
+
+////
+* AsciiDoc @ GitHub (“It all starts with GitHub.”)
+  - rich diff
+  - "Edit on GitHub" button
+* local live preview
+  - browser extensions
+  - IDE for writers
+* hubpress.io
+* adoc-editor.io
+  - if we have time, explain a bit how it works
+////
+
+[#github]
+== !
+
+Biggest part of the tool story is AsciiDoc on GitHub.
+Great for sharing content, especially in the early stages.
+No formal publishing workflow needed.
+
+[#github-diffs]
+== !
+
+Seeing what changed is essential.
+
+[#edit-on-github]
+== !
+
+Essential for approachability is providing a clear entry point.
+Nothing accomplishes this like an "Edit on GitHub" button.
+Shows where the source is while at the same time showing how to propose a change to the file.
+Benefits from the lightweight GitHub Flow contribution process.
+
+// TODO need screenshot of Edit on GitHub
+
+[#browser-live-preview]
+
+The live preview extension for Chrome & Firefox is absolutely essential.
+Based on Asciidoctor.js, a transpiled version of Asciidoctor that is the foundation of much of the tooling.
+Browse to any AsciiDoc file locally or anywhere on the internet and see a rendered version of it.
+(Chrome extension even features offline support)
+
+[#ide-integration]
+== !
+
+Live preview while editing in Atom, Brackets, IntelliJ IDEA and more.
+In early stages of being an true _IDE for writers_.
+
+// break here into demo, so what follows won't be slides
+
+[#hubpress]
+== !
+
+Easy publishing.
+Focus on the content, get a beautiful result.
+Core value proposition of the Asciidoctor.
+Amazing what this does for your motivation to write.
+
+[#adoc-editor]
+== !
+
+“Google Docs for AsciiDoc”
+GitHub workflow is nice, but doesn't work well for real-time edits.
+adoc-editor gets everyone hacking on the same version of the document, simultaneously.
+Everyone gets the same live preview of the document as well.
+This is definitely the future of writing.
+“Pair writing”
+The fact that the AsciiDoc source is just code, tools become just that, tools.
+And we know from programming that tools are a developers best friend.
+Now they can be a writers best friend too.
+
+Demo the following:
+* enable hide-uri-scheme to show change in preview
+* show source code highlighting
+
+// TODO List of additional tools in tool section?
+
+[#authors-love-asciidoctor]
+== !
+
+// TODO quotes and who's using it

@@ -1,0 +1,5 @@
+[#docgist-rendering%notitle]
+== AsciiDoc rendered on DocGist
+
+[.contain]
+image::docgist.jpg[README for the AsciiDoc Chrome Extension rendered in DocGist]

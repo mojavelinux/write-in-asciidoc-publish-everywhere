@@ -1,0 +1,11 @@
+[#github-rendering-1%notitle]
+== AsciiDoc rendered on GitHub (a)
+
+[.contain]
+image::github-asciidoc.jpg[README for the AsciiDoc Chrome Extension as rendered on GitHub]
+
+[#github-rendering-2%notitle]
+== AsciiDoc rendered on GitHub (b)
+
+[.contain]
+image::github-asciidoc-2.jpg[README for AsciidoctorJ as rendered on GitHub]

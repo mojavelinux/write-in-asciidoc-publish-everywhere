@@ -1,0 +1,7 @@
+[%notitle]
+== Tenets
+
+[no-bullet.lead%step]
+* Concise
+* Consistent
+* Semantic

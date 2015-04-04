@@ -1,0 +1,53 @@
+[.topic]
+== Tools
+
+//:leveloffset: +1
+
+include::tools/github.adoc[]
+
+//include::tools/docgist-rendering.adoc[]
+
+include::tools/asciidoc-on-github.adoc[]
+
+include::tools/github-diffs.adoc[]
+
+// TODO mention HubPress?
+== Writing & editing
+
+[#chrome-extension%notitle]
+== Asciidoctor Chrome Extension
+
+[.contain]
+image::asciidoctor-chrome-extension.jpg[Asciidoctor.js Live Preview extension in Chrome Web Store]
+
+include::tools/chrome-live-preview.adoc[]
+
+include::tools/atom-live-preview.adoc[]
+
+== Automate publishing
+
+//[.proper]
+//== build.gradle
+//== Plugin to Gradle
+
+.Plug into Gradle
+[source.condense]
+----
+buildscript {
+  repositories {
+    jcenter()
+  }
+
+  dependencies {
+    classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.2'
+  }
+}
+
+apply plugin: 'org.asciidoctor.convert'
+
+asciidoctor {
+  attributes toc: 'left', icons: 'font'
+}
+----
+
+//:leveloffset: -1

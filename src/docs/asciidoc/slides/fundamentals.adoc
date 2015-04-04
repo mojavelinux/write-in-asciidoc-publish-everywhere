@@ -1,0 +1,9 @@
+[#fundamentals%notitle]
+== Fundamentals for creating documentation
+
+[.emblems%step]
+icon:eye[]:: read
+icon:keyboard-o[]:: edit
+icon:git[]:: version
+icon:share-square-o[]:: share
+icon:flask[]:: convert

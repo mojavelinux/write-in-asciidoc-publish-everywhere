@@ -1,0 +1,32 @@
+[#author-quotes.topic]
+== Authors icon:heart[] Asciidoctor
+
+== !
+
+image::scott-chacon-headshot.png[Scott Chacon,256,256]
+
+"I can do truly amazing things with my AsciiDoc source."
+-- Scott Chacon, author of Pro Git
+
+////
+== !
+
+"I find going back to Markdown akin to trading in utensils and eating with my hands."
+-- Greg Turnquist, author of Learning Spring Boot
+
+== !
+
+"Use AsciiDoc for document markup. It’s actually readable by humans, easier to parse and more flexible than XML."
+-- Linus Torvalds
+
+== !
+
+//[quote, Scott Chacon, author of Pro Git]
+[quote]
+I can do truly amazing things with my AsciiDoc source...
+
+== !
+
+"...this has very serious and interesting implications for the publishing industry as a whole."
+-- Scott Chacon, author of Pro Git
+////

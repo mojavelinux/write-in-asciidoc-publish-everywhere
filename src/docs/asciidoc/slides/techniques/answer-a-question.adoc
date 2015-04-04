@@ -1,0 +1,7 @@
+// when you're stuck, answer a question
+// can always change question to a statement in final version
+[#answer-a-question]
+== #{counter:technique_num:1}: Answer a question
+
+[.ui-window]
+image::what-does-it-do.png[What does it do?, width=75%]

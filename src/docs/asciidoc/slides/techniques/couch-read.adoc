@@ -1,0 +1,5 @@
+[#couch-read.masked]
+== #{counter:technique_num:1}: Couch read
+
+[.cover]
+image::couch-read.jpg[]

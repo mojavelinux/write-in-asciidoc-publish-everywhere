@@ -1,0 +1,5 @@
+[#atom-package.light-canvas%notitle]
+== AsciiDoc Preview in Atom
+
+[.contain]
+image::atom-asciidoc-preview.jpg[AsciiDoc Preview in Atom]

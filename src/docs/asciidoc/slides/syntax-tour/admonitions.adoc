@@ -1,0 +1,10 @@
+== Notes
+
+[source]
+----
+NOTE: For your info.
+
+WARNING: I wouldn't do that.
+
+IMPORTANT: Don't forget!
+----

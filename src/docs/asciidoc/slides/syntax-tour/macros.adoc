@@ -1,0 +1,12 @@
+== Macros
+
+[horizontal,labelwidth=15%,itemwidth=85%]
+Inline::
++
+[source]
+<name>:<target>[<attributes>]
+
+Block::
++
+[source]
+<name>::<target>[<attributes>]

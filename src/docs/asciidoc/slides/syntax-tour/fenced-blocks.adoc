@@ -1,0 +1,22 @@
+== “Fenced” blocks
+
+[cols="2m,3"]
+|===
+|pass:[--]
+|open
+
+|pass:[----, ```, ....]
+|listing, source, literal
+
+|pass:[====]
+|example, admonition
+
+|pass:[****]
+|sidebar
+
+|pass:[____, ""]
+|quote
+
+|pass:[////]
+|comment
+|===

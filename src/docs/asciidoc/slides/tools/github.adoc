@@ -1,0 +1,8 @@
+[#github.proper]
+== AsciiDoc icon:github[] GitHub
+
+//[%hardbreaks]
+//{plus}
+//gists
+//{plus}
+//_gitbook.io_
