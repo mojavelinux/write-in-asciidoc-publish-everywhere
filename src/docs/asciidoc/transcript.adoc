@@ -10,7 +10,7 @@ I'm Maxime.
 It's an honor to be here in front of you and alongside Dan.
 Thank you Dan and the Devoxx France team.
 Today, we are here to talk about AsciiDoc, Asciidoctor and the tooling around it.
-You will learn a lot today but the hardest thing for you will be to discover which guy is the Frecnh guy and which one is the American guy!
+You will learn a lot today, but the hardest thing will be to sort out which one of us is French and which one is American!
 Dan::
 Bonjour et bienvenue à Devoxx France.
 Merci pour venez à notre présentation.
@@ -388,7 +388,7 @@ The fact that the AsciiDoc source is just code, tools become just that, tools.
 And we know from programming that tools are a developers best friend.
 Now they can be a writers best friend too.
 
-Demo the following:
+.Demo the following:
 * enable hide-uri-scheme to show change in preview
 * show source code highlighting
 
