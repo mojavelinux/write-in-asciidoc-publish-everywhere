@@ -13,9 +13,9 @@ Today, we are here to talk about AsciiDoc, Asciidoctor and the tooling around it
 You will learn a lot today, but the hardest thing will be to sort out which one of us is French and which one is American!
 Dan::
 Bonjour et bienvenue à Devoxx France.
-Merci pour venez à notre présentation.
+Merci d'être présent à notre conférence.
 Je suis Dan Allen.
-Je suis le chef (ou l'auteur) de Asciidoctor
+Je suis le créateur du project Asciidoctor
 Aujourd'hui, nous allons vous expliquer les bonnes pratiques pour écrire en AsciiDoc...
 Max::
 Dan! What are you doing?
