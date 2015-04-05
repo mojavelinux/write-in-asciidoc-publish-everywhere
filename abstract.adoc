@@ -1,0 +1,22 @@
+= Write in AsciiDoc, Publish Everywhere: Abstract
+Dan Allen
+2014-12-02
+:conference-name: Devoxx France
+:conference-year: 2015
+:conference-uri: http://cfp.devoxx.fr
+:presentation-date: 2015-04-10
+
+By using AsciiDoc, you're already following one of the best practices we recommend.
+You can write once in AsciiDoc and publish everywhere!
+
+AsciiDoc takes a lot of the pain out of writing documentation and keeps it DRY.
+As with any tool, you need to learn the best practices to use it effectively, such as:
+
+* How to organize your documentation
+* How to make your documentation approachable to contributors
+* How to make your documentation easy to maintain
+* What tools to use to simplify collaboration & maximize reuse
+
+I'll address some of the challenges we've come across writing documentation in AsciiDoc,
+offer a set of tips and recommendations that have helped us improve our writing flow and
+provide advice about how to keep presentation from leaking into your content...and why it matters.
