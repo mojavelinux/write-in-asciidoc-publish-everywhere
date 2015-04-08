@@ -9,7 +9,7 @@ Thank you for coming.
 I'm Maxime.
 It's an honor to be here in front of you and alongside Dan.
 Thank you Dan and the Devoxx France team.
-Today, we are here to talk about AsciiDoc, Asciidoctor and the tooling around it.
+We are here to talk about AsciiDoc, Asciidoctor and the tooling around it.
 You will learn a lot today, but the hardest thing will be to sort out which one of us is French and which one is American!
 Dan::
 Bonjour et bienvenue à Devoxx France.
@@ -38,7 +38,7 @@ Max::
 Hum..., that's a good question Dan, you win a t-shirt. 
 ...
 Dan::
-Gagnant !
+Génial !
 
 [#title-continued]
 == !
