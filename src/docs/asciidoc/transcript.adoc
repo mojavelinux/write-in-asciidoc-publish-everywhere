@@ -14,7 +14,7 @@ You will learn a lot today, but the hardest thing will be to sort out which one 
 Dan::
 Bonjour et bienvenue à Devoxx France.
 Merci d'être présent à notre conférence.
-Je suis Dan Allen, le créateur du project Asciidoctor
+Je suis Dan Allen, le créateur du project Asciidoctor.
 Aujourd'hui, nous allons vous expliquer les bonnes pratiques pour écrire en AsciiDoc...
 Max::
 Dan! What are you doing?
@@ -41,14 +41,14 @@ Génial !
 [#title-continued]
 == !
 
-Today, we're going to teach you how to use AsciiDoc more effectively by sharing with you a handful of techniques and showcasing some tools we use in our daily work.
-We'll be helping you on your journey to discovering writing zen by introducing you to a muse named Asciidoctor.
+Today, we're going to teach you how to use AsciiDoc more effectively by sharing a handful of techniques and showcasing some tools we use in our daily work.
+You'll meet a muse named Asciidoctor, who will help you on your path towards attaining writing zen.
 In the words of Scott Chacon, author of Pro Git, you'll be “Living the Future of Technical Documentation.”
 
 If you're writing in AsciiDoc, you're already following one of our recommended best practices for writing.
 Way to go!
 If not, your journey with AsciiDoc starts today.
-We hope when you leave here today, you'll be ready to put these techniques and tools into practice and, plus important, take pleasure in the art of writing.
+We hope when you leave here today, you'll be ready to put these techniques and tools into practice and, _plus important_, take pleasure in the art of writing.
 
 [#stuck]
 == !
@@ -104,7 +104,6 @@ The same for tweets.
 The Twitter bird asks “What's happening?”, you just fill in the blank.
 You are a communication machine!
 
-// question and response
 Notice that these forms of communication are _responses_.
 Très important.
 
@@ -114,32 +113,30 @@ Très important.
 Yet documentation, such as writing a README or tutorial, seems to puzzle us.
 We clam up and begin stressing about all sorts of things.
 
+[#ordeal-quote]
+== !
+As my friend Martijn Dashorst puts it, “writing is a #$%@! ordeal.”
+
 [#pourqoui]
 == !
 
 Pourquoi ?
+Writing documentation should be as simple as writing an e-mail, non ?
+Well, it's complicated.
 
-// Writing documentation should be as simple as writing an e-mail, oui ?
-
-[#its-complicated]
-== !
-
-It's complicated.
-
-When we write documentation, all of a sudden we have to think about putting structure on a blank canvas.
+When we write documentation, all of a sudden we have to think about structure.
 What's the beginning, middle and end?
 The prerequisites? The audience?
-This isn't just question and response anymore.
-Think again about how we communicate.
-We don't go up to someone and outline what we're going to say.
-(act out dialogue)
-So we're not used to thinking about the structure, the outline.
-On top of that, there is no longer a clear channel of communication.
-Or we make it more difficult by layering on a bad writing environment.
+It isn't just question and response.
 
-We need to hack our brain and our process.
-We need to believe we can do it.
-And no one has helped us believe in ourselves more than IKEA.
+After all, we don't go up to someone and outline what we're going to say.
+(dramatization)
+So we're not used to thinking about the structure, the outline.
+On top of that, we have to think about where and how to write.
+
+We need to hack our, make ourselves believe we can do it.
+Over the years, no one has helped us believe in ourselves more than IKEA.
+Am I right?
 
 [#houss]
 == !
@@ -153,28 +150,7 @@ And no one has helped us believe in ourselves more than IKEA.
 Ne stressez pas.
 Vous pouvez le faire.
 
-== !
-
-Bad::
-// If we wrote code like we write docs
-* DocBook
-// YGWYG
-* WYSIWYG
-Good::
-// Developers love code
-// Why not write docs this way?
-* AsciiDoc
-
-[#asciidoc-sample]
-== !
-
-Free your mind by writing in the closest format to thought, plain text.
-Efficiently encode the information.
-*Content in its purest form.*
-Similar to writing on paper.
-Plow away the distractions.
-What's most important is that you're writing!
-
+[#docs-eq-code]
 == !
 
 Docs are code!
@@ -193,10 +169,31 @@ Asciidoctor:: the toolchain
 Parser + writing and publishing tools.
 (50 repositories in the Asciidoctor organization on GitHub).
 
+[#asciidoc-sample]
+== !
+
+Free your mind by writing in the closest format to thought, plain text.
+Efficiently encode the information.
+*Content in its purest form.*
+Similar to writing on paper.
+Plow away the distractions.
+What's most important is that you're writing!
+
+[#tenets]
+== !
+
+AsciiDoc is a
+
+* concise
+* consistent
+* semantic
+
+way to efficiently encode information.
+
 [#fundamentals]
 == !
 
-Fundamentals for documentation.
+Fundamental requirements for running a documentation effort.
 
 read:: syntax doesn't get in the way of writing
 // ^ authors always say "I can finally see what I'm writing"
@@ -205,33 +202,23 @@ version:: most critical; absolutely essential; establishes canonical source / av
 share:: ad-hoc publishing; seriously low barrier to collaboration
 convert:: write in AsciiDoc once, publish everywhere
 
-[#tenets]
+[#publier-partout]
 == !
 
-* Concise
-* Consistent
-* Semantic
-
-// Efficiently encode the (semantic) information
+AsciiDoc is an input, does not dictate an output.
+Écrire en AsciiDoc, publier partout !
+It's a clean separation of content and presentation.
 
 [#extend]
 == !
 
-Extend it!
-
 * The AsciiDoc is made to be extended.
-* AsciiDoc is an input, does not dictate an output.
-* Separation of content and presentation.
 * This is really where Asciidoctor comes in and shines
 
-// example?
-
-[#write-publish]
+[#extension-example]
 == !
 
-Écrire en AsciiDoc, publier partout !
-
-// ^ itemize formats (see http://mgreau.com/slides/websocket-asciidoctor/DevNation2014/slides.html#13.6)
+Small glimpse into extension mechanism.
 
 [#zen-writing-techniques]
 == !
@@ -335,29 +322,30 @@ Biggest part of the tool story is AsciiDoc on GitHub.
 Great for sharing content, especially in the early stages.
 No formal publishing workflow needed.
 
-[#github-diffs]
+[#fork-and-fix]
 == !
 
-Seeing what changed is essential.
-
-[#edit-on-github]
-== !
+Just like with code, you use a ”fork and fix” workflow to collaboratively edit the document.
 
 Essential for approachability is providing a clear entry point.
 Nothing accomplishes this like an "Edit on GitHub" button.
 Shows where the source is while at the same time showing how to propose a change to the file.
 Benefits from the lightweight GitHub Flow contribution process.
 
-// TODO need screenshot of Edit on GitHub
+[#github-diffs]
+== !
 
-[#browser-live-preview]
+Seeing what changed is essential.
+
+[#chrome-asciidoc-preview]
+== !
 
 The live preview extension for Chrome & Firefox is absolutely essential.
 Based on Asciidoctor.js, a transpiled version of Asciidoctor that is the foundation of much of the tooling.
 Browse to any AsciiDoc file locally or anywhere on the internet and see a rendered version of it.
 (Chrome extension even features offline support)
 
-[#ide-integration]
+[#atom-package]
 == !
 
 Live preview while editing in Atom, Brackets, IntelliJ IDEA and more.
