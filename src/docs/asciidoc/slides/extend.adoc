@@ -1,9 +1,9 @@
 [#extend]
-== Extend it!
+== Extend!
 
 [%step]
-* Custom syntax [atten]#(`+issue:<id>[]+`)#
 * Custom converters [atten]#(PDF, reveal.js, ...)#
+* Custom syntax [atten]#(`+issue:<id>[]+`)#
 * AST transforms
 
 // AsciiDoc is an input, does not dictate an output

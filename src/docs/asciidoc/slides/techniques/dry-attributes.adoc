@@ -11,6 +11,7 @@ Find out more about {uri-project}[project name].
 ----
 
 // TODO show example of spring.io guide (Gradle guide in particular)
+// Let your idea drive how you split / write; make it progressive -- Guillaume S.
 [#includes]
 == and includes
 

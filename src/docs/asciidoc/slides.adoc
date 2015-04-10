@@ -47,17 +47,19 @@ include::slides/tools/github-diffs.adoc[]
 // TODO:
 //include::slides/tools/edit-on-github.adoc[]
 
-[.local-live-preview]
-== Local [illuminate]#Live# Preview
+//[.local-live-preview]
+//== Local [illuminate]#Live# Preview
 
 include::slides/tools/chrome-asciidoc-preview.adoc[]
 
 include::slides/tools/atom-asciidoc-preview.adoc[]
 
-// TODO: HubPress.io placeholder/demo slide
+include::slides/tools/hubpress.adoc[]
 
-// TODO: adoc-editor placeholder/demo slide
+include::slides/tools/adoc-editor.adoc[]
 
 include::slides/author-quotes.adoc[]
+
+include::slides/publish-everywhere.adoc[]
 
 include::slides/cred.adoc[]

@@ -1,0 +1,5 @@
+[#hubpress.light-canvas%notitle,data-background-position=top]
+== HubPress.io
+
+[.cover]
+image::hubpress-screenshot.jpg[HubPress.io screenshot]

@@ -63,6 +63,7 @@ body {
 
 .reveal h1 strong {
   color: #71ebf4;
+  color: #abc34a;
   /*
   line-height: 1;
   font-size: 1.25em;
@@ -160,6 +161,7 @@ body {
   font-size: 1.1em;
   line-height: 0.8em;
   color: #71ebf4;
+  color: #abc34a;
 }
 
 .reveal blockquote::before {
@@ -277,6 +279,8 @@ body {
 
 .reveal a {
   color: #13daec;
+  color: #abc34a;
+  color: #d77933;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
@@ -285,6 +289,7 @@ body {
 
 .reveal a:hover {
   color: #71ebf4;
+  color: #abc34a;
   text-shadow: none;
   border: none;
 }
@@ -398,6 +403,8 @@ td.valign-top {
 /* FIXME a bit of a hack */
 .reveal .icon.illuminate {
   color: #71ebf4;
+  color: #abc34a;
+  color: #53B6BC;
   margin-bottom: 0.2em;
   font-size: 5rem;
   display: inline-block;
@@ -411,13 +418,14 @@ td.valign-top {
 .tableblock.emblems .icon,
 .tableblock.icons .icon {
   color: #71ebf4;
+  color: #abc34a;
+  color: #53B6BC;
   display: inline-block;
   font-size: 5rem;
   height: 2em;
   width: 2em;
   line-height: 2;
   border: 2px solid #eee;
-  color: #71ebf4;
   border-radius: 2em;
   margin-bottom: 0.2em;
 }
@@ -459,10 +467,13 @@ td.valign-top {
   font-size: 3em;
 }
 
-.reveal .illuminate,
-/*.reveal section.illuminate h2,*/
 .reveal section.interjection h2 {
   color: #71ebf4;
+  color: #abc34a;
+}
+
+.reveal .illuminate {
+  color: #53B6BC;
 }
 
 .reveal .light {
@@ -525,4 +536,21 @@ section.topic {
   -webkit-transform: translateY(50%);
   padding: 0.5em 0;
   width: 100%;
+}
+
+.reveal p.authors .name,
+.reveal p.authors .email {
+/*.reveal p.authors .separator*/
+  padding: 0 3px;
+}
+
+.reveal .slides > section:first-of-type h1,
+.reveal .slides section.mask h2 {
+  line-height: 1.2;
+  font-size: 2em;
+  width: 100%;
+  padding: 0.5em 0 0.25em 0;
+  background-color: rgba(25,25,25,0.9);
+  border-top: 2px solid #191919;
+  border-bottom: 2px solid #191919;
 }

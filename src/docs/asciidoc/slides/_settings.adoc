@@ -4,6 +4,7 @@
 :revealjs_history: true
 :revealjs_slidenumber: false
 :revealjs_customtheme: styles/poang.css
+:title-slide-background-image: devoxx-background.png
 :icons: font
 :imagesdir: images
 //:idprefix: id-
@@ -12,6 +13,7 @@
 // FIXME we want the title-background attributes over the doctitle!
 :source-language: no-highlight
 //:source-highlighter: highlightjs
-:color-accent: #b81652
-:color-highlight: #71ebf4
+//:color-accent: #b81652
+:color-accent: #1aacc7
+//:color-highlight: #71ebf4
 :topic-background-color: {color-accent}

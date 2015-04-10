@@ -14,15 +14,13 @@ You will learn a lot today, but the hardest thing will be to sort out which one 
 Dan::
 Bonjour et bienvenue à Devoxx France.
 Merci d'être présent à notre conférence.
-Je suis Dan Allen.
-Je suis le créateur du project Asciidoctor
+Je suis Dan Allen, le créateur du project Asciidoctor
 Aujourd'hui, nous allons vous expliquer les bonnes pratiques pour écrire en AsciiDoc...
 Max::
 Dan! What are you doing?
 I think they know that I'm the French guy.
 Dan::
-Zut !
-I've been spending too many hours practicing French.
+Alors, I've been spending too much time practicing my French.
 Cette fois en anglais.
 My name is Dan Allen.
 In my business, I focus on content strategy, building communities and educating people about technology.

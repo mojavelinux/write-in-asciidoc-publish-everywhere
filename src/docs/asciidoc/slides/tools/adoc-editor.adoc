@@ -1,0 +1,5 @@
+[#adoc-editor.light-canvas%notitle,data-background-position=top]
+== Adoc Editor
+
+[.contain]
+image::adoc-editor-screenshots.png[Adoc Editor screenshots]

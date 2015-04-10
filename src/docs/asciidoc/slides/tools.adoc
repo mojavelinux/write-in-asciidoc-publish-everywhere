@@ -11,7 +11,6 @@ include::tools/asciidoc-on-github.adoc[]
 
 include::tools/github-diffs.adoc[]
 
-// TODO mention HubPress?
 == Writing & editing
 
 [#chrome-extension%notitle]
@@ -23,6 +22,8 @@ image::asciidoctor-chrome-extension.jpg[Asciidoctor.js Live Preview extension in
 include::tools/chrome-live-preview.adoc[]
 
 include::tools/atom-live-preview.adoc[]
+
+include::tools/hubpress.adoc[]
 
 == Automate publishing
 

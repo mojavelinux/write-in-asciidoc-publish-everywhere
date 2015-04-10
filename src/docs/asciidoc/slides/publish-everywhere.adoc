@@ -1,5 +1,9 @@
-== Write Once, Publish Everywhere!
+[#publier-partout-{counter:publier_partout_num:1}%notitle,data-background-color=#ffffff]
+== Écrire en AsciiDoc. Publier Partout !
 
+[.contain]
+image::publier-partout.svg[]
+////
 [no-bullet%step]
 * HTML5
 * DocBook 4.5/5
@@ -8,3 +12,4 @@
 * Slides
 * Man pages
 * and more...
+////
