@@ -383,4 +383,5 @@ Now they can be a writers best friend too.
 [#authors-love-asciidoctor]
 == !
 
+We know we're doing something right because authors that use Asciidoctor absolutely love it.
 // TODO quotes and who's using it
