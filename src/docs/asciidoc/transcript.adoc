@@ -43,12 +43,12 @@ Génial !
 
 Today, we're going to teach you how to use AsciiDoc more effectively by sharing a handful of techniques and showcasing some tools we use in our daily work.
 You'll meet a muse named Asciidoctor, who will help you on your path towards attaining writing zen.
-In the words of Scott Chacon, author of Pro Git, you'll be “Living the Future of Technical Documentation.”
 
 If you're writing in AsciiDoc, you're already following one of our recommended best practices for writing.
 Way to go!
 If not, your journey with AsciiDoc starts today.
 We hope when you leave here today, you'll be ready to put these techniques and tools into practice and, _plus important_, take pleasure in the art of writing.
+In the words of Scott Chacon, author of Pro Git, you'll be “Living the Future of Technical Documentation.”
 
 [#stuck]
 == !
