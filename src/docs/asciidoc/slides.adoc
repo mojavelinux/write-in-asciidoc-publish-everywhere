@@ -26,6 +26,8 @@ include::slides/docs-as-code.adoc[]
 
 include::slides/asciidoc-intro.adoc[]
 
+include::slides/asciidoc-sample.adoc[]
+
 // QUESTION proper placement for tenets slide?
 include::slides/syntax-tour/tenets.adoc[]
 

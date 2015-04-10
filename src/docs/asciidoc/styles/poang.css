@@ -20,7 +20,8 @@ body {
 
 ::selection {
   color: #fff;
-  background: #ff5e99;
+  background-color: #ff5e99;
+  background-color: #1aacc7;
   text-shadow: none;
 }
 
